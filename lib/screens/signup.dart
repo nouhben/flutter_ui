@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Signup extends StatefulWidget {
   @override
@@ -109,8 +108,8 @@ class _SignupState extends State<Signup> {
                           ),
                         ),
                       ),
-                      onTap: () => {
-                        print('Firebase auth ... register...'),
+                      onTap: () {
+                        print('Firebase auth ... register...');
                       },
                     ),
                   ),
@@ -145,9 +144,9 @@ class _SignupState extends State<Signup> {
                             ),
                           ),
                         ),
-                        onTap: () => {
-                          print('Firebase auth ... register...'),
-                          Navigator.of(context).pop('/signup'),
+                        onTap: () {
+                          print('Firebase auth ... register...');
+                          Navigator.of(context).pop('/signup');
                         },
                       ),
                     ),
